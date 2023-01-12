@@ -13,11 +13,11 @@
 </header>
 
 <body>
-    <div class="login_container s-0 m-0">
+    <div id="login_bar" class="login_container s-0 m-0" style="display: none;">
         <div class="form_container ">
             
             <h2 id="title_form">Đăng Ký
-                <span id="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span>
             </h2>
             <div class="form_input">
                 <label for="">Họ và tên </label>
@@ -43,8 +43,8 @@
                   <i class="fa-sharp fa-solid fa-lock"></i>
                    </span>
                 <input class="require "min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
-                <span class="eye"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
-                <span class="eye"><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
+                <span class="eye eye_show eye_current"><i class="fa-sharp fa-solid fa-eye"></i></span>
                 <span class="msgError"></span>
 
             </div>
@@ -54,16 +54,47 @@
                   <i class="fa-sharp fa-solid fa-lock"></i>
                    </span>
                 <input class="require"placeholder="Nhập lại mật khẩu" type="password" name="cofirm_password" >
-                <span class="eye"><i class="fa-sharp fa-solid fa-eye-slash"></i></span>
-                <span class="eye"><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <span class="eye eye_prohibit "><i class="fa-sharp fa-solid fa-eye-slash"></i></span>
+                <span class="eye eye_show eye_current"><i class="fa-sharp fa-solid fa-eye"></i></span>
                 <span class="msgError"></span>
 
 
             </div>
             <div class="form_input">
                 <p class="agree_test">Bằng việc đăng ký tài khoản, bạn đã đồng ý với <a href="#">Điều khoản dịch vụ</a>  và <a href="#">Chính sách </a>bảo mật của chúng tôi</p>
-                <button id="register_btn">Đăng ký</button>
-                <p class="agree_test">Bạn đã có tài khoản? <a href="#" style="font-weight: 600;">Đăng nhập ngay</a></p>
+                <button id="register_btn" class="btn">Đăng ký</button>
+                <p class="agree_test">Bạn đã có tài khoản? <a id="move_to_login" href="#" style="font-weight: 600;">Đăng nhập ngay</a></p>
+            </div>
+    
+        </div>
+        <div class="form_container active ">
+            
+            <h2 id="title_form">Đăng Nhập
+                <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+            </h2>
+            <div class="form_input">
+                <label for="">Email </label>
+                <span class="icon_input">  
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                   </span>
+                <input class="require "placeholder="Nhập Email" type="text" name="email" > 
+                   <span class="msgError"></span>
+            </div>
+            <div class="form_input">
+                <label for="">Mật khẩu</label>
+                <span class="icon_input">  
+                  <i class="fa-sharp fa-solid fa-lock"></i>
+                   </span>
+                <input class="require "min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
+                <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
+                <span class="eye eye_show eye_current" ><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <span class="msgError"></span>
+
+            </div>
+            <div class="form_input">
+                <br>    
+                <button id="login_btn" class="btn">Đăng nhập</button>
+                <p class="agree_test">Bạn chưa có tài khoản? <a id="move_to_register"href="#" style="font-weight: 600;">Đăng ký ngay</a></p>
             </div>
     
         </div>
@@ -100,14 +131,33 @@
                 <!-- my property -->
                <div id="property" class="first_items col s-0 s-4 m-4 l-4 v-l-4 ">
                    <div class="row_item">
-                       <a class="nav_items " href="#" ><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
-                       <a class="nav_items " href="#"   >Skills</a>
-                    <a class="nav_items nav_item-active" href="#"   >Education</a>
+                       <a class="nav_items item " href="#" ><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
+                       <a class="nav_items item login_item" href="#"   >Đăng nhập</a>
+                       <a class="nav_items item  register_item" href="#"   >Đăng ký</a>
                 </div>
                 <div class="row_item">
-                       <a class="nav_items" href="#"   >Favorites</a>
-                       <a class="nav_items" href="#"   >Albums</a>
-                       <a class="nav_items" href="#"   >Plans</a>
+                    <div class="nav_items item" href="#"   >Favorites
+                        <label  for="faovrites" class="more_nav"><i class="fa-sharp fa-solid fa-caret-down"></i></label>
+                        <input type="checkbox" name="" id="faovrites" hidden> 
+                        <ul class="list_items">
+                            <a class="nav_items_child item">Công nghệ</a>
+                            <a class="nav_items_child item">Sách</a>
+                            <a class="nav_items_child item">Đầu tư</a>  
+                            <a class="nav_items_child item">Thời trang</a> 
+                            
+                        </ul>
+                    </div>
+                    <div class="nav_items item" href="#"   >Albums
+                        <label for="albums" class="more_nav"><i class="fa-sharp fa-solid fa-caret-down"></i></label>
+                        <input type="checkbox" name="" id="albums" hidden> 
+                        <ul class="list_items">
+                            <a class="nav_items_child item">Âm nhạc</a>
+                            <a class="nav_items_child item">Video</a>
+                            <a class="nav_items_child item">Hình ảnh</a>  
+                            <a class="nav_items_child item">Thể thao</a>  
+                        </ul>
+                    </div>
+                       <a class="nav_items item" href="#"   >Plans</a>
                    </div>
                     
                </div>
@@ -494,7 +544,7 @@
                     <div class="property_personal col l-4 v-l-4 s-12 m-12">
                         <div class="about_me_container">
                             <div class="title-bar">ABOUT ME</div>
-                            <img src="image/photo.jpg" alt="" id="avar_img">
+                            <img src="https://img.redbull.com/images/c_crop,x_237,y_0,h_803,w_1205/c_fill,w_1000,h_640/q_auto,f_auto/redbullcom/2017/09/11/cf94b842-0205-48ac-81ae-e408d829d164/the-great-gatsby" alt="" id="avar_img">
                             <p id="about_me-name">Lê Mai Hoàng <br>
                                 <span>Officer Army,Trader,Freelancer,Developer</span>
                             </p>
@@ -592,7 +642,9 @@
 <footer>
     
     <script src="js/slide.js"></script>
-    <script src="js/validation.js"></script>
+    <script src="js/loginhandel.js"></script>
+    <script src="js/renderpost.js"></script>
+
 
 
 </footer>
