@@ -1,34 +1,12 @@
 /* file set css for header nav bar */
-*{
-    margin:0 0;
-    padding:0 0;
-}
-html{
-    font-size: 16px;
-}
-:root{
-    --main_color:white;
-    --white_color:white;
-    --black_color:black;
-    --font_color:green;
-    --bar_mobile_color:#191919;
-    --font_base:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font_logo_color:white;
-
-}
-/*reset*/
-body{
-    margin: 0;
-  }
-  div {
-      padding: 0px 0px;
-  }
-  a:hover{
-      color:red;
-  }
 
 
-a{text-decoration: none;}
+
+a{text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
 
 @keyframes move_bar_to_left{
     from{
@@ -145,9 +123,6 @@ a{text-decoration: none;}
         line-height: 50px;
         border-style: hidden;
     }
-    #bar_mobile i{
-
-    }
     #bar_mobile:hover{
         opacity: 0.7;
     }
@@ -204,6 +179,7 @@ a{text-decoration: none;}
         padding:0px 0px;
         justify-content: space-around;
         height:fit-content;
+      
     }
     .first_items{
         
@@ -220,15 +196,53 @@ a{text-decoration: none;}
     }
     
     .nav_items{
-        display:inline-block;
-        width:27%;
+        display:inline-block;   
+    }
+    .more_nav{
+        float:right;
+        margin-right: 5px;
+        padding: 0px 8px;
+        cursor: pointer;
+    }
+    .more_nav:hover{
+        opacity: 0.7;
+
+    }
+    #faovrites:checked ~ ul{
+        display:block;
+    }
+    #albums:checked ~ ul{
+       display: block;
+    }
+    .item{
         border-bottom: solid 1px rgb(114, 109, 109);
+        width:27%;
         padding-bottom: 7px;
+    }
+    .list_items{
+        display:none;
+        position: absolute;
+        background-color: var(--bar_color);
+        z-index: 2;
+        width:122px;
+        margin-top: 9px;
+        
+    }
+    .nav_items_child{
+        display:block;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        
+    }
+    .first_items:first-child{
+        margin-left: 100px;
+    
     }
     .nav_item-active{
         border-bottom: solid 2px yellow;
         color:yellow;
-        cursor: default;
+        
 
     }
     .apps{
@@ -255,7 +269,7 @@ a{text-decoration: none;}
         cursor: pointer;
     }
     #qr_icon:hover #qr{
-        z-index: 1;
+        z-index: 100;
         animation-name: show;
         animation-duration: 3s;
     }
@@ -284,13 +298,16 @@ a{text-decoration: none;}
 /*use together*/
     #heander_navbar{
         padding:0px 0px;
+        height: 109.3px;
     }
   
     #first_page{
         color:var(--white_color);
         z-index: 1;
-        background-image: linear-gradient(to right,rgb(2, 57, 88),var(--main_color),rgb(218, 40, 40));
+        background-color: var(--bar_color);
+       /* background-image: linear-gradient(to right,rgb(2, 57, 88),var(--main_color),rgb(218, 40, 40));*/
         width:100%;
+
     }
     #first_page a{
         color:var(--white_color);
