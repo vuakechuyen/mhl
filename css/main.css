@@ -17,6 +17,22 @@ html{
 
 }
 /*reset*/
+#robot{
+    width:fit-content;
+    height:fit-content;
+    position: fixed;
+    z-index: 10000;
+    right:10px;
+    color:rgb(131, 15, 125);
+    font-size: 40px;
+}
+#robot:hover #robot::after{
+    content: "";
+    width: 100px;
+    height:100px;
+    background-color: #3BA769;
+    position: absolute;
+}
 body{
     margin: 0;
   }
@@ -63,11 +79,11 @@ body{
     transition: ease-in transform 0.5s;
     z-index: 1;
 }
-.row button{
+#slides button{
     width: 50px;
     height: 35px;
     background-color: rgba(0, 0, 0, 0.178);
-    color: black;
+    color: var(--bar_color);
     border-style: none;
     position: absolute;
 
@@ -77,12 +93,12 @@ body{
 }
 #previous_btn{
     top:255px;
-    z-index: 100;
+    z-index: 9;
 }
 #next_btn{
     right:0;
     top:255px;
-    z-index: 100;
+    z-index: 9;
 }
 .slide img{
     z-index: -1;
@@ -155,20 +171,21 @@ body{
     padding-bottom: 35px;
     height:fit-content;
 }
-.posts{
-}
+
 .post_container{
     margin-top: 40px;
     height:200px;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 
 }
+
 .img_post{
     width:300px;
     object-fit: cover;
     display: inline-block;
-background-color: chartreuse;
+background-color: white;
 }
 .details_post{
     padding: 10px 5px 0px 22px;

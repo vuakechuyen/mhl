@@ -117,7 +117,7 @@ a:hover{
         border:solid 1px var(--white_color) ;
         background-color:rgba(0,0,0,0); 
         border-radius: 3px;
-        z-index: 10;
+        z-index: 1001;
         padding-left:3px;
         opacity: 1;
         line-height: 50px;
@@ -132,14 +132,13 @@ a:hover{
         font-weight: 600;
         position: fixed;
         width:100%;
-        background-color:#000000;
+        background-color:var(--black_color);
         height:100%;
         color:var(--white_color);
         padding:0;
-        z-index: 11;
+        z-index: 1001;
     }
     #mobile_screen{
-        background-color: var(--bar_mobile_color);
         width: 100%;
         position: fixed;
         height: 100%;

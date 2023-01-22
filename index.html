@@ -7,99 +7,12 @@
     <link type="text/css" rel="stylesheet" href="css/header_nav.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
 </header>
 
 <body>
-    <div id="login_bar" class="login_container s-0 m-0" style="display: none;">
-        <div class="form_container ">
-            
-            <h2 id="title_form">Đăng Ký
-                <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span>
-            </h2>
-            <div class="form_input">
-                <label for="">Họ và tên </label>
-                <span class="icon_input">  
-                 <i class="fa-solid fa-user"></i>
-                </span>
-                <input class="require "placeholder="Nhập tên của bạn vào đây" type="text" name="username" >
-                <span class="msgError"> </span>
 
-
-            </div>
-            <div class="form_input">
-                <label for="">Email </label>
-                <span class="icon_input">  
-                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                   </span>
-                <input class="require "placeholder="Nhập Email" type="text" name="email" > 
-                   <span class="msgError"></span>
-            </div>
-            <div class="form_input">
-                <label for="">Mật khẩu</label>
-                <span class="icon_input">  
-                  <i class="fa-sharp fa-solid fa-lock"></i>
-                   </span>
-                <input class="require "min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
-                <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
-                <span class="eye eye_show eye_current"><i class="fa-sharp fa-solid fa-eye"></i></span>
-                <span class="msgError"></span>
-
-            </div>
-            <div class="form_input">
-                <label for="">Nhập lại mật khẩu</label>
-                <span class="icon_input">  
-                  <i class="fa-sharp fa-solid fa-lock"></i>
-                   </span>
-                <input class="require"placeholder="Nhập lại mật khẩu" type="password" name="cofirm_password" >
-                <span class="eye eye_prohibit "><i class="fa-sharp fa-solid fa-eye-slash"></i></span>
-                <span class="eye eye_show eye_current"><i class="fa-sharp fa-solid fa-eye"></i></span>
-                <span class="msgError"></span>
-
-
-            </div>
-            <div class="form_input">
-                <p class="agree_test">Bằng việc đăng ký tài khoản, bạn đã đồng ý với <a href="#">Điều khoản dịch vụ</a>  và <a href="#">Chính sách </a>bảo mật của chúng tôi</p>
-                <button id="register_btn" class="btn">Đăng ký</button>
-                <p class="agree_test">Bạn đã có tài khoản? <a id="move_to_login" href="#" style="font-weight: 600;">Đăng nhập ngay</a></p>
-            </div>
-    
-        </div>
-        <div class="form_container active ">
-            
-            <h2 id="title_form">Đăng Nhập
-                <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span>
-            </h2>
-            <div class="form_input">
-                <label for="">Email </label>
-                <span class="icon_input">  
-                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                   </span>
-                <input class="require "placeholder="Nhập Email" type="text" name="email" > 
-                   <span class="msgError"></span>
-            </div>
-            <div class="form_input">
-                <label for="">Mật khẩu</label>
-                <span class="icon_input">  
-                  <i class="fa-sharp fa-solid fa-lock"></i>
-                   </span>
-                <input class="require "min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
-                <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
-                <span class="eye eye_show eye_current" ><i class="fa-sharp fa-solid fa-eye"></i></span>
-                <span class="msgError"></span>
-
-            </div>
-            <div class="form_input">
-                <br>    
-                <button id="login_btn" class="btn">Đăng nhập</button>
-                <p class="agree_test">Bạn chưa có tài khoản? <a id="move_to_register"href="#" style="font-weight: 600;">Đăng ký ngay</a></p>
-            </div>
-    
-        </div>
-    
-    </div>
     <!-- header sidebar -->
     <div id="header_navbar">
         <div id="first_page" class="grid">
@@ -132,8 +45,8 @@
                <div id="property" class="first_items col s-0 s-4 m-4 l-4 v-l-4 ">
                    <div class="row_item">
                        <a class="nav_items item " href="#" ><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
-                       <a class="nav_items item login_item" href="#"   >Đăng nhập</a>
-                       <a class="nav_items item  register_item" href="#"   >Đăng ký</a>
+                       <a class="nav_items item login_item" href="login.html"   >Đăng nhập</a>
+                       <a class="nav_items item  register_item" href="register.html"   >Đăng ký</a>
                 </div>
                 <div class="row_item">
                     <div class="nav_items item" href="#"   >Favorites
@@ -177,6 +90,8 @@
                     </div>
                     <div id="mobile_list">
                         <a href="#" class="mobile_items"><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
+                        <a href="login.html" class="mobile_items">Đăng Nhập</a>
+                        <a href="register.html" class="mobile_items">Đăng Ký</a>
                         <a href="#" class="mobile_items">Cuộc sống quanh tôi</a>
                         <a href="#" class="mobile_items">Âm nhạc</a>
                         <a href="#" class="mobile_items">Videos</a>
@@ -193,6 +108,7 @@
                     </div> 
             </div>
     </div>
+    <div id="robot" class="s-0 m-0"><i class="fa-sharp fa-solid fa-robot"></i></div>
     <div id="container"> 
         <!-- slides -->
         <div id="slides" class="grid">
@@ -427,7 +343,7 @@
             <div class="row wide">
                 <!-- main posts -->
                 <div class="posts col l-8 v-l-8 s-12">
-                    <div class="post_container">
+                    <div href=""class="post_container">
                         <img class="img_post " src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t1.6435-9/83343224_1057722781246013_8045702814724259840_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=MrrRDtlBFKQAX9lRhmY&_nc_ht=scontent.fsgn5-11.fna&oh=00_AfBSHiVCOwVBZd7jrUNVzIO64Ukz0NyIt8uopjpbBw-TKA&oe=63CE5B5A"></img>
                         <div class="details_post ">
                             <div class="post_title">LEARN</div>
@@ -642,7 +558,7 @@
 <footer>
     
     <script src="js/slide.js"></script>
-    <script src="js/loginhandel.js"></script>
+  
     <script src="js/renderpost.js"></script>
 
 
