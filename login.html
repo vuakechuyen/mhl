@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,40 @@
     <link type="text/css" rel="stylesheet" href="css/header_nav.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/message.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-    <div class="login container grid">
+    <div class='content'>
+        <div class="alert alert-success alert-white rounded" >
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-check"></i></div>
+            <strong>Success!</strong>Đăng nhập thành công!
+        </div>
+        <div class="alert alert-warning alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-warning"></i></div>
+            <strong>Alert!</strong>Có lỗi xảy ra !
+        </div>
+        <div class="alert alert-danger alert-white rounded" >
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-times-circle"></i></div>
+            <strong>Error!</strong>Đăng nhập thất bại
+        </div>
+        <div class="alert alert-info alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-info-circle"></i></div>
+            <strong>Info!</strong> You have 3 new messages in your inbox.
+        </div>
+    </div>
+
+    <div class="login_container grid">
         <div class="row">
             <div class="form_container active login_form col l-5 v-l-5 s-12 m-12">
                 <div class="form_input">
@@ -22,43 +49,46 @@
                     <h1 class="title_form">Đăng Nhập</h1>
                     <a id="home" href="index.html"><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
                     <h4 class="greeting ">Chào mừng bạn đến với Blog của LE MAI HOANG</h4>
-                    <p class="greeting_details">Cùng xây dựng với tôi một diễn đàn chia sẻ những trải nghiệm và kỹ năng mới hãy đăng nhập tài khoản !</p>
-                    
-            
+                    <p class="greeting_details">Cùng xây dựng với tôi một diễn đàn chia sẻ những trải nghiệm và kỹ năng
+                        mới hãy đăng nhập tài khoản !</p>
+
+
                 </div>
-                    <!-- <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span> -->
+                <!-- <span class="close_btn"><i class="fa-sharp fa-solid fa-xmark"></i></span> -->
                 </h2>
-                
+
                 <div class="form_input">
                     <label for="">Email </label>
-                    <span class="icon_input">  
+                    <span class="icon_input">
                         <i class="fa-sharp fa-solid fa-envelope"></i>
-                       </span>
-                    <input id="email" class="require email"placeholder="Nhập Email" type="text" name="email" > 
-                       <span class="msgError"></span>
+                    </span>
+                    <input id="email" class="require email" placeholder="Nhập Email" type="text" name="email">
+                    <span class="msgError"></span>
                 </div>
                 <div class="form_input">
                     <label for="">Mật khẩu</label>
-                    <span class="icon_input">  
-                      <i class="fa-sharp fa-solid fa-lock"></i>
-                       </span>
-                    <input id="password" class="require"min="6" max="10" placeholder="Nhập mật khẩu" type="password" name="password">
+                    <span class="icon_input">
+                        <i class="fa-sharp fa-solid fa-lock"></i>
+                    </span>
+                    <input id="password" class="require" min="6" max="10" placeholder="Nhập mật khẩu" type="password"
+                        name="password">
                     <span class="eye eye_prohibit"><i class="fa-sharp fa-solid fa-eye-slash"></i> </span>
                     <span class="eye eye_show"><i class="fa-sharp fa-solid fa-eye"></i></span>
                     <span class="msgError"></span>
-    
+
                 </div>
-                
+
                 <div class="form_input">
                     <br>
                     <button id="login_btn" class="btn">Đăng nhập</button>
-                    <p class="agree_test">Bạn chưa có tài khoản? <a href="register.html" style="font-weight: 600;">Đăng ký ngay</a></p>
+                    <p class="agree_test">Bạn chưa có tài khoản? <a href="register.html" style="font-weight: 600;">Đăng
+                            ký ngay</a></p>
                 </div>
-        
+
             </div>
             <div class="login_ads col l-7 v-l-7 s-0 m-0">
                 <img id="hoa_dao" src="image/hoadao.png" alt="">
-                <img id="ads_image" src="image/ads.png"  alt="">
+                <img id="ads_image" src="image/ads.png" alt="">
                 <div id="ads_details">
                     <h2>Bảo mật & An toàn tuyệt đối</h2><br>
                     <p>Bạn có thể tham gia xây dựng nội dung.Thông tin về tài khoản của bạn sẽ được bảo mật.</p>
@@ -72,15 +102,17 @@
 <script src="js/library.js"> </script>
 <script src="js/loginhandel.js"></script>
 <script>validation({
-    form:".login_form",
-    errorMessage:".msgError",
-    submitButton:"#login_btn",
-    rules:[
-        validation.isEmail("#email","Đây phải là một Email !"),
-        validation.isMax("#password",10,"Mật khẩu không hợp lệ !"),
-        validation.isMin("#password",6,"Mật khẩu không hợp lệ !"),
-        validation.isRequire("#email","Vui lòng nhập Email !"),
-        validation.isRequire("#password","Vui lòng nhập mật khẩu !")
-    ]}); </script>
+        form: ".login_form",
+        errorMessage: ".msgError",
+        submitButton: "#login_btn",
+        rules: [
+            validation.isEmail("#email", "Đây phải là một Email !"),
+            validation.isMax("#password", 10, "Mật khẩu không hợp lệ !"),
+            validation.isMin("#password", 6, "Mật khẩu không hợp lệ !"),
+            validation.isRequire("#email", "Vui lòng nhập Email !"),
+            validation.isRequire("#password", "Vui lòng nhập mật khẩu !")
+        ]
+    }); </script>
 <script>loginHandle("#login_btn");</script>
+
 </html>

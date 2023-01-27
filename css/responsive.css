@@ -16,12 +16,12 @@
         display: block;
         height: fit-content;
     }
-
-    .img_post{
+    .img_container{
         width: 100%;
         height: 200px;
         display: block;
         object-fit: cover;
+
     }
     .post_name{
         margin: 6px 0px;

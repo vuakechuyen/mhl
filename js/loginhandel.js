@@ -91,4 +91,6 @@ var eyes=document.querySelectorAll(".eye")
             
         }
     })
-    
+
+var messageContent=document.querySelector(".content")
+messageContent.style.transform="translateX(-100%)"
