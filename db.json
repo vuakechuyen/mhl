@@ -1,0 +1,196 @@
+{
+  "comments": [
+    {
+      "userName": "Le Mai Hoang",
+      "email": "hxtvthht@gmail.com",
+      "password": "h16111999",
+      "id": 1
+    },
+    {
+      "userName": "lemaihoang",
+      "email": "maihoanglevn@gmail.com",
+      "password": "h03011999",
+      "id": 2
+    },
+    {
+      "userName": "aquafina_",
+      "email": "lemaihoang38@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "userName": "hxtvthh",
+      "email": "maivannam11101999@gmail.com",
+      "password": "h03011999",
+      "id": 4
+    },
+    {
+      "userName": "lenin",
+      "email": "vuakechuyen@gmail.com",
+      "password": "h03011999",
+      "id": 5
+    },
+    {
+      "userName": "lemaihoang",
+      "email": "hxtvthht@gmail.com",
+      "password": "h16111999",
+      "id": 6
+    },
+    {
+      "userName": "lemaihoang",
+      "email": "hxtvthht@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "userName": "lemaihoang",
+      "email": "maivannam11101999@gmail.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "userName": "lemaihoang",
+      "email": "htvthht@gmail.com",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "userName": "LEMAIHOANG",
+      "email": "vuakechuyen99@gmail.com",
+      "password": "h16111999",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "img": "https://st.quantrimang.com/photos/image/2023/01/06/dong-ho-thong-minh-700-size-345x0-znd.jpg",
+      "title": "công nghệ",
+      "name": "Kỳ lạ Huawei Watch đo được nhịp tim và nồng độ SpO2 của cây xúc xích",
+      "time": "18h30",
+      "id": 0,
+      "extra": "Một số kinh nghiệm có thể giúp bạn tránh được thiệt hại về tài sản"
+    },
+    {
+      "img": "https://st.quantrimang.com/photos/image/2023/01/09/robot-luat-su-700-size-345x0-znd.jpg",
+      "title": "Công nghệ",
+      "name": "Luật sư AI đầu tiên trên thế giới sẽ bào chữa cho con người trước tòa",
+      "time": "18h30",
+      "id": 1,
+      "extra": "Theo New Scientist, một luật sư là robot được hỗ trợ bởi trí tuệ nhân tạo (AI) sẽ bào chữa cho bị cáo trong phiên tòa được tổ chức tại Mỹ vào tháng 2-2023"
+    },
+    {
+      "img": "https://demoda.vn/wp-content/uploads/2022/02/background-dep-1-800x534.jpg",
+      "title": "công nghệ",
+      "name": "Có thể dùng tay cầm DualShock 4 với PlayStation 5 không? Cách ghép nối DualShock 4 với PS5",
+      "time": "18h30",
+      "id": 2,
+      "extra": "Một số kinh nghiệm có thể giúp bạn tránh được thiệt hại về tài sản"
+    },
+    {
+      "img": "https://demoda.vn/wp-content/uploads/2022/02/background-dep-1-800x534.jpg",
+      "title": "Kỹ năng sống",
+      "name": "Kinh nghiệm quản lý rủi ro",
+      "time": "18h30",
+      "id": 3,
+      "extra": "Một số kinh nghiệm có thể giúp bạn tránh được thiệt hại về tài sản"
+    },
+    {
+      "img": "https://demoda.vn/wp-content/uploads/2022/02/background-dep-1-800x534.jpg",
+      "title": "Đầu tư",
+      "name": "Kinh nghiệm quản lý rủi ro",
+      "time": "18h30",
+      "id": 4,
+      "extra": "Một số kinh nghiệm có thể giúp bạn tránh được thiệt hại về tài sản"
+    },
+    {
+      "img": "https://st.quantrimang.com/photos/image/2022/01/05/ghep-noi-dualshock-4-voi-ps52.jpg",
+      "title": "Thể thao",
+      "name": "Cách ghép nối DualShock 4 với PlayStation 5",
+      "time": "18h30",
+      "id": 5,
+      "extra": "Cách đơn giản nhất để ghép nối tay cầm PS4 với PS5 là sử dụng cáp USB. Bạn chỉ cần dùng một sợi cáp Micro-USB, cắm một đầu vào DualShock 4 và đầu kia vào giắc USB-A trên PS5."
+    },
+    {
+      "img": "https://st.quantrimang.com/photos/image/2022/01/09/ket-hop-boots-chan-vay-700-size-300x0-znd.jpg",
+      "title": "thời trang",
+      "name": "4 kiểu kết hợp chân váy với boots không bị xấu dáng ",
+      "time": "18h30",
+      "id": 6,
+      "extra": "Mùa đông đến là lúc các chị em diện những đôi boots với nhiều kiểu dáng, kết hợp với chân váy hay thậm chí là váy dài. Dưới đây là 4 cách kết hợp chân váy với"
+    },
+    {
+      "img": "https://st.quantrimang.com/photos/image/2022/01/09/intel-core-i9-manh-hon-apple-m1-max700-size-300x0-znd.jpg",
+      "title": "Công Nghệ",
+      "name": "Intel tự tin khẳng định CPU Core i9 cho laptop mới sẽ mạnh hơn Apple M1 Max: Cũng đúng, nhưng mà…",
+      "time": "18h30",
+      "id": 7,
+      "extra": "Trong khuôn khổ CES 2022, Intel cuối cùng cũng đã chính thức công bố dòng vi xử lý Core thế hệ thứ 12 mới được phát triển cho máy tính xách tay. Và như thường lệ, công ty cũng không quên “cà khịa” đối thủ khi tuyên bố rằng Core i9 mới không chỉ nhanh hơn M1 Max của Apple trên MacBook Pro 16 inch, mà còn là bộ xử lý di động nhanh nhất thế giới ở thời điểm hiện tại."
+    },
+    {
+      "img": "https://st.quantrimang.com/photos/image/2018/01/13/nhung-ung-dung-mien-phi-640-size-300x0-znd.jpg",
+      "title": "Công nghệ",
+      "name": "Top ứng dụng Android đang miễn phí và giảm giá 10/01/2023",
+      "time": "18h30",
+      "id": 7,
+      "extra": "Bạn phải làm sao để tìm thấy những ứng dụng Android đang giảm giá, ứng dụng Android miễn phí ngày hôm nay 10/01/2023? Quantrimang.com sẽ tổng hợp những"
+    },
+    {
+      "name": "Ai thay thế Hồng Diễm, Thu Quỳnh trong năm 2023?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-giqort9LxjD5g6Cmr_jUePGJoHjDBAqTpw&usqp=CAU",
+      "title": "Cine",
+      "extra": "Truyền hình Việt thời gian tới rất cần sự xuất hiện của những gương mặt mới, khi các diễn viên nổi tiếng nhiều năm qua ...",
+      "id": 8
+    }
+  ],
+  "contentsRobot":[
+    "da đen chứng tỏ có một quá khứ rất bốc lửa và khét",
+    "hôm qua chính mắt anh nhìn thấy em ngồi trên xe của anh ta,ôm hôn thắm thiết nhưng anh không buồn vì anh không biết em là ai cả :}",
+    "không nói dối nhưng không được nói hết",
+    "chị ấy xinh còn em thì đẹp",
+    "cũng nhẹ chỉ nặng người khiêng thôi",
+    "Bây giờ em 24 tủi,nếu 20 năm trước em sinh ra thì giờ em bao nhiêu tủi",
+    "Hôm trước đi xem bói ,đến nhà thầy bói gõ cửa thì ổng hỏi ai đấy,mình về luôn,thầy bói kiểu gì mà ai gõ cửa cũng ko bít ,bịp thật",
+    "Mình không ngại thì người ngại không phải là mình",
+    "Coi nhẹ việc thành bại với phụ nữ",
+    "Người đàn ông như anh mà em thích cũng bình thường mà ,hic",
+    "Kiểu con gái như em xách dép anh còn không cho đấy",
+    "Đàn ông cười mỉm thường đào hoa đó em,ai ko bít giữ là mất,hehe",
+    "Nếu ko bên nhau lúc vợt muỗi,thì cũng đừng bên nhau trên sân vợt tennis",
+    "Một năm đi làm 2 lần,1 lần 6 tháng",
+    "Hôm nay chắc giúp mẹ nấu ăn à,giúp một nửa chứ gì,đó là ăn",
+    "Em có phải yêu quái ko,vì trong Tây Du Ký yêu quái toàn gái xinh",
+    "Tại sao trông em mập thế,trong lòng có anh đúng ko",
+    "Đầu tư vào ông ấy sẽ có lời,lời cảm ơn và lời chào tạm biệt",
+    "Wonderfull là tuyệt vời còn e thì tuyệt đẹp",
+    "Anh ko mong cô ấy xinh như em,chỉ mong cô ấy thật lòng ,ko yêu anh chỉ vì vẻ bề ngoài đẹp trai của anh là được",
+    "Art-Con gái bị hẫng với sự lạnh nhạt bất thường",
+    "Art-khi nàg bắt đầu quen với sự có mặt của bạn,thì dừng lại",
+    "Art-Hành động khác suy nghĩ thông thường sẽ được chú ý",
+    "Art-Cái gì nhiều cũng không tốt ,đặc biệt là lời khen",
+    "Art-Tìm được điểm chung",
+    "Art-Con gái sẽ chú ý đến những người biết nói điều ngược lại",
+    "Art-Lời khen từ người thứ 3 sẽ dáng tin hơn",
+    "Art-Tự tin",
+    "Art-Hoà nhã",
+    "Art-Chu đáo",
+    "Art-Quyền lực",
+    "Art-Thoải mái",
+    "Art-Luôn cảm thấy thoải mái với chính bản thân mình",
+    "Art-Có tiêu chuẩn cao",
+    "Art-Luôn dẫn dắt và chủ động",
+    "Art-Luôn biết kiểm soát tình hình",
+    "Art-Yêu được lời từ chối",
+    "Art-Dám thể hiện bản năng của mình",
+    "Art-Đưa họ vào thế giới của mình",
+    "Art-Không quá quan tâm đến những gì cg nghĩ",
+    "Art-Tỏ ra cứng rắn với cg",
+    "Art-Biết nói không",
+    "Art-hấp dẫn,hấp dẫn và hấp dẫn",
+    "Art-Tiếp cận gồm tiếp cận gián tiếp và trực tiếp",
+    "Art-CHuyển tiếp bằng -nội dung or quan sát",
+    "Art-thể hiện giá trị bằng cách kể chuyện",
+    "Art-Thử thách nhẹ nhàng,khen những điểm ko ai chú ý tới",
+    "Art-Hoà hợp,nốt lặng của cảm xúc bằng cách tạo niềm tin",
+    "Art-Quyến rũ mạnh mẽ,bất ngờ"
+  ]
+}
